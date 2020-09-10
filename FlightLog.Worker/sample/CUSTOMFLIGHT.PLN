@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>Khibiny to Talagi</Title>
+        <FPType>IFR</FPType>
+        <RouteType>LowAlt</RouteType>
+        <CruisingAlt>22500.000</CruisingAlt>
+        <DepartureID>ULMK</DepartureID>
+        <DepartureLLA>N67° 27' 45.91",E33° 35' 8.76",+000502.00</DepartureLLA>
+        <DestinationID>ULAA</DestinationID>
+        <DestinationLLA>N64° 36' 1.05",E40° 42' 59.79",+000041.00</DestinationLLA>
+        <Descr>Khibiny to Talagi</Descr>
+        <DepartureName>Khibiny</DepartureName>
+        <DestinationName>Talagi</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="ULMK">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N67° 27' 45.91",E33° 35' 8.76",+000502.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>ULMK</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="ODIMA">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N66° 28' 12.00",E36° 15' 55.00",+017850.00</WorldPosition>
+            <ATCAirway>A222</ATCAirway>
+            <ICAO>
+                <ICAORegion>UL</ICAORegion>
+                <ICAOIdent>ODIMA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KUMEL">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N66° 17' 0.00",E36° 51' 50.00",+021500.00</WorldPosition>
+            <ATCAirway>W57</ATCAirway>
+            <ICAO>
+                <ICAORegion>UL</ICAORegion>
+                <ICAOIdent>KUMEL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMECRUIS">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N66° 13' 27.72",E37° 0' 41.30",+022500.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="REGNA">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N66° 0' 12.00",E37° 33' 20.00",+022500.00</WorldPosition>
+            <ATCAirway>W57</ATCAirway>
+            <ICAO>
+                <ICAORegion>UL</ICAORegion>
+                <ICAOIdent>REGNA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIMEDSCNT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N65° 57' 45.09",E37° 39' 15.92",+022500.00</WorldPosition>
+        </ATCWaypoint>
+        <ATCWaypoint id="KOTID">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N65° 15' 36.00",E39° 17' 8.00",+010800.00</WorldPosition>
+            <ATCAirway>W57</ATCAirway>
+            <ICAO>
+                <ICAORegion>UL</ICAORegion>
+                <ICAOIdent>KOTID</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="BIBNA">
+            <ATCWaypointType>Intersection</ATCWaypointType>
+            <WorldPosition>N64° 55' 53.00",E40° 0' 38.00",+005400.00</WorldPosition>
+            <ICAO>
+                <ICAORegion>UL</ICAORegion>
+                <ICAOIdent>BIBNA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="ULAA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N64° 36' 1.05",E40° 42' 59.79",+000050.00</WorldPosition>
+            <ApproachTypeFP>ILS</ApproachTypeFP>
+            <RunwayNumberFP>26</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>ULAA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
